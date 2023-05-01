@@ -59,7 +59,7 @@ body {
 }
 
 .bunner {
-  background-image: url(/img/Rectangle.png);
+  background-image: url(../img/Rectangle.png);
   background-size: cover;
   min-height: 100vh;
   background-repeat: no-repeat;
@@ -83,7 +83,7 @@ body {
 }
 
 .header-item {
-  color: black;
+  color: white;
   font-size: 18;
   font-weight: 400;
 }
@@ -98,8 +98,137 @@ body {
   margin: 0 auto;
   justify-content: center;
   font-size: 18px;
+  border: none;
 }
 
 .btn i {
   padding-right: 6px;
+}
+
+.servises-list {
+  display: flex;
+  padding: 40px 0 20px 0;
+}
+
+.servises-item i {
+  width: 67px;
+  height: 67px;
+  background: #28A745;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.servises-item img {
+  max-width: 100%;
+}
+
+.servises-item {
+  max-width: 300px;
+}
+
+.servises-list {
+  display: flex;
+  gap: 70px;
+  text-align: center;
+}
+
+.servises-inner p  {
+  display: flex;
+}
+
+.solution {
+  background-color:#28A745;
+}
+
+.solution-inner {
+  display: flex;
+  align-items: center;
+}
+
+.solution-inner-img {
+  width: 50%; 
+  height: auto; 
+  display: flex;
+}
+
+.solution-inner-img img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.solution-inner-text {
+  max-width: 680px;
+  padding-left:30px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.solution-inner-text h2 {
+  font-weight: 300;
+font-size: 38px;
+line-height: 48px;
+padding-bottom: 26px;
+}
+
+.solution-inner-text p {
+  padding-bottom: 17px;
+}
+
+.solution-title {
+  font-size: 20px;
+}
+
+.btn-second {
+  margin: 0;
+  box-shadow: inset 0 0 0 1px #fff;
+}
+
+.btn-second:hover {
+  color: #28A745;
+  background-color: #FFF;
+  transition: 0.3s;
+}
+
+.business-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.business-item {
+  width: 25%;
+  padding: 4px;
+}
+
+.business-list img {
+  width: 100%;
+}
+
+.business-title {
+  font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+padding-bottom: 15px;
+padding-top: 50px;
+}
+
+.business h2 {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: #333333;
+  padding-bottom: 43px;
+}
+
+.business p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #333333;
+  padding-bottom: 40px;
 }
