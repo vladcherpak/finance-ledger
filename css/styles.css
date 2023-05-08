@@ -45,6 +45,7 @@ body {
   z-index: 10;
   width: 100%;
   padding-top: 21px;
+  background-color: rgba(121, 119, 119, 0.521);
 }
 
 .header-inner {
@@ -332,18 +333,101 @@ padding-bottom: 26px;
   text-align: center;
 }
 
-.team-logo {
+.socials {
+  position: absolute;
+  top: 45%;
+  left: 24%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: plum;
   gap: 25px; 
-  position: relative;
-  top: 50%;
-  left: 50%;
+  text-align: center;
+  
 }
 
-.team-item-img:nth-child(2) {
-  position: absolute;
+.socials a {
+  display: flex;
+  text-align: center;
+}
+
+.team-item-img  {
+  position: relative;
+}
+
+
+.contacts {
+  padding-top: 60px;
+}
+
+.contacts-inner-img {
+  display: flex;
+  width: 50%;
+}
+
+.contacts-inner-img img {
+  width: 100%;
+}
+
+
+.email {
+  background-color: #F4F4F4;
+  width: 50%;
+  padding-left: 30px;
+}
+
+.email-p {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 48px;
+  padding-top: 80px;
+  padding-bottom: 34px;
+}
+
+.contacts-inner {
+  display: flex;
+}
+
+.email-btn {
+  padding-right: 30px;
+  max-height: 42px;
+  padding-left: 0px;
+  width: 90%;
+  margin: 0;
+}
+
+.email input {
+  width: 90%;
+  border: 1px solid #F5F5F5;
+  border-radius: 0px;
+  max-height: 40px;
+  height: 100%;
+  padding-left: 5px;
+}
+
+.name {
+  margin-bottom: 40px;
+}
+
+.em {
+  margin-bottom: 60px;
+}
+
+footer {
+  background-color:#333333;
+  height: 110px;
   
+}
+
+.footer-p {
+  color: #fff;
+  text-align: center;
+}
+
+.footer-list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  justify-content: center;
 }
